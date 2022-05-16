@@ -147,6 +147,7 @@ a {
 .process__video {
   width: 100%;
   height: 600px;
+  border: none;
 }
 .footer {
   min-height: 150px;
