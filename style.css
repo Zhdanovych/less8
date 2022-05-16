@@ -14,20 +14,20 @@ a {
 .header {
   background-color: #eeeff1;
   min-height: 700px;
-  padding: 79px;
+  padding: 75px;
 }
 .container {
   max-width: 700px;
   margin: 0 auto;
 }
 .header-navbar {
+  margin-bottom: 40px;
 }
 .header-navbar__list {
   list-style: none;
   display: flex;
-  column-gap: 42px;
-}
-.header-navbar__item {
+  line-height: 26px;
+  column-gap: 39px;
 }
 .header-navbar__link {
   text-transform: uppercase;
@@ -39,10 +39,11 @@ a {
   color: #34547a;
 }
 .header-content {
+  width: 540px;
 }
 .header-content__title {
-  margin-top: 162px;
-  margin-bottom: 60px;
+  margin-top: 132px;
+  margin-bottom: 40px;
   font-weight: 500;
   font-size: 48px;
   line-height: 79px;
@@ -51,9 +52,8 @@ a {
 .header-content__discr {
   font-size: 16px;
   line-height: 26px;
-  margin-bottom: ;
-}
-.header-content__action {
+  color: #727272;
+  margin-bottom: 58px;
 }
 .header-content__link {
   display: flex;
